@@ -1,4 +1,4 @@
-const { formatLocation, formatWeather, formatReviews, formatTrails } = require('../lib/munging.js');
+const { formatLocation, formatWeather, formatReviews } = require('../lib/munging.js');
 
 test('formatLocation should take in a location by name and returns the name, latitude, and longitude', () => {
   const denverSearch = [
